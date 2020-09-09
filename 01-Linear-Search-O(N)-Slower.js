@@ -1,6 +1,6 @@
 // Linear Search
 
-// Time: O(n)  "O of N time"
+// Time: O(n)  "Big O of N time"
 
 // .indexOf //n //-1
 // .includes //true //false
@@ -8,6 +8,9 @@
 // .findIndex
 
 const linearSearch = (arr,val) => {
+    ///////////////////////////////////
+    /////// **** for loop ***** //////
+    ///////////////////////////////////
     // for(let i = 0;  i < arr.length; i++){
     //     let eachVal = arr[i]
     //     if(eachVal === val)return i
@@ -15,12 +18,12 @@ const linearSearch = (arr,val) => {
     // return -1
 
 
-
     ///////////////////////////////////
     /////// **** .indexOf ***** //////
     ///////////////////////////////////
     // let i = arr.indexOf(val)
     // return i
+
 
     ///////////////////////////////////
     /////// **** .includes ***** //////
@@ -32,9 +35,9 @@ const linearSearch = (arr,val) => {
 
 
 
-    ////////////////////////////////////////////
-    /////// **** .find .findIndex ***** ////////
-    ////////////////////////////////////////////
+////////////////////////////////////////////
+/////// **** .find .findIndex ***** ////////
+////////////////////////////////////////////
 
 let arr = [-1,-2,3]
 

@@ -6,7 +6,7 @@
 //binarySearch([1,2,3,4,5],3)//2
 //binarySearch([1,2,3,4,5],6)//-1
 
-//TIME O(log N)
+//TIME O(log N) "Big O of log N"
 //logarithmic search
 
 const binarySearch = (arr,val) => {
